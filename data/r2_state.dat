@@ -1,0 +1,10 @@
+sales|5|4|id,dept,score,units|1,eng,88,5;2,sales,72,3;3,eng,95,7;4,sales,61,2;5,eng,80,4|1,eng,88,5;2,sales,72,3;3,eng,95,7;5,eng,80,4
+@g|sales|eng|SUM|2|263
+@g|sales|sales|SUM|2|72
+@g|sales|eng|AVG|2|87.6
+@g|sales|sales|AVG|2|72.0
+@g|sales|eng|COUNT|2|3
+@g|sales|sales|COUNT|2|1
+@m|sales|MEAN|2|83.75
+@m|sales|VAR|2|74.18
+@m|sales|STD|2|8.61

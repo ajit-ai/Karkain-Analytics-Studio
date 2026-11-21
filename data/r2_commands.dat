@@ -1,0 +1,7 @@
+LOAD2|sales|data/r2_sales.csv
+WHERE|sales|2|GT|65
+GROUP|sales|1|SUM|2
+GROUP|sales|1|AVG|2
+GROUP|sales|1|COUNT|2
+STATS|sales|2
+REPORT_EXPORT|sales|data/r2_group_report.dat

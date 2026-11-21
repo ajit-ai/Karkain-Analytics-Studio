@@ -7,6 +7,7 @@
 //   @m|name|SUM|col|value
 // Commands come from data/commands.dat; the rendered report is written to
 // data/report.dat. Builtins only; relative paths only.
+import advanced_analytics
 
 func find_dataset(state, name) {
     let i = 0
@@ -178,4 +179,5 @@ func main() {
         j = j + 1
     }
     print("ANALYTICS_STUDIO_OK datasets=" + str(nd) + " measures=" + str(nm))
+    advanced_analytics.r2_run()
 }

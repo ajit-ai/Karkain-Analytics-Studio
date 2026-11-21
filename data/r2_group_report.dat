@@ -1,0 +1,13 @@
+REPORT sales
+DATASET sales rows=5 cols=4 header=id,dept,score,units
+VIEW rows=4
+MEASURE MEAN col=2 value=83.75
+MEASURE VAR col=2 value=74.18
+MEASURE STD col=2 value=8.61
+GROUP eng SUM col=2 value=263
+GROUP sales SUM col=2 value=72
+GROUP eng AVG col=2 value=87.6
+GROUP sales AVG col=2 value=72.0
+GROUP eng COUNT col=2 value=3
+GROUP sales COUNT col=2 value=1
+REPORT_END sales

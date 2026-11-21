@@ -1,0 +1,7 @@
+LOAD2 sales rows=5 cols=4
+WHERE sales col=2 op=GT value=65 matched=4
+GROUP sales by=1 op=SUM measure=2
+GROUP sales by=1 op=AVG measure=2
+GROUP sales by=1 op=COUNT measure=2
+STATS sales col=2
+REPORT_EXPORT sales -> data/r2_group_report.dat

@@ -1,0 +1,5 @@
+LOAD|sales|data/sales.csv
+MEASURE|sales|SUM|1
+MEASURE|sales|AVG|1
+MEASURE|sales|SUM|2
+REPORT|sales

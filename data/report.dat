@@ -1,0 +1,7 @@
+LOAD sales rows=3 cols=3
+REPORT sales
+DATASET sales rows=3 cols=3 header=id,score,units
+MEASURE SUM col=1 value=60
+MEASURE AVG col=1 value=20.0
+MEASURE SUM col=2 value=18
+REPORT_END sales
